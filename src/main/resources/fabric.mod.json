@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "screaminggoats",
+  "version": "${version}",
+  "name": "ScreamingGoats",
+  "description": "Easily differentiate good goats apart",
+  "authors": [
+    "Geri",
+    "znopp"
+  ],
+  "contact": {
+    "website": "https://geri.dev",
+    "issues": "https://github.com/notgeri/screaminggoats/issues",
+    "repo": "https://github.com/notgeri/screaminggoats"
+  },
+  "license": "MIT",
+  "icon": "assets/screaminggoats/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.geri.screaminggoats.ScreamingGoats"
+    ]
+  },
+  "mixins": [
+    "screaminggoats.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "1.19"
+  }
+}
